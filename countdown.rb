@@ -4,5 +4,6 @@ require 'pry'
 
 def countdown(number)
   number.each do |n|
+    puts "#{n} SECOND(S)!"
   end 
 end
